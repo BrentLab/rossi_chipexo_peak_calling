@@ -1,0 +1,258 @@
+ChExMix version 0.52
+
+
+Processing HitLoaders for:	1	DEFAULT
+Processing HitLoaders for:	1	rep1
+Processing HitLoaders for:	2	rep1
+Loading data from 1:DEFAULT:control	Loaded.
+Loading data from 1:rep1:signal	Loaded.
+Loading data from 2:rep1:signal	Loaded.
+Calculating scaling factors for condition:	1	Complete.
+Loaded all experiments:
+ Condition 1:	#Replicates:	1
+	Replicate:	1:rep1
+		Signal:	4346703.0	Control:	7703636.0	ScalingFactor:	0.346
+	Pooled replicates for condition:	1
+		Signal:	4346703.0	Control:7703636.0	ScalingFactor:0.346
+ Condition 2:	#Replicates:	1
+	Replicate:	2:rep1
+		Signal:	2546417.0
+	Pooled replicates for condition:	2
+		Signal:	2546417.0
+Finding potential binding regions.
+PotentialRegionFilter: condition genomic threshold for 1 with bin width 50.0 = 48.0
+PotentialRegionFilter: replicate genomic threshold for 1:rep1 with bin width 50.0 = 48.0
+PotentialRegionFilter: replicate genomic threshold for 2:rep1 with bin width 50.0 = 34.0
+PotentialRegionFilter: condition genomic threshold for 2 with bin width 50.0 = 34.0
+PotentialRegionFilter: replicate genomic threshold for 1:rep1 with bin width 50.0 = 48.0
+PotentialRegionFilter: replicate genomic threshold for 2:rep1 with bin width 50.0 = 34.0
+337 potential regions found. Total length: 185850.0
+Initializing mixture model
+Caching sequences
+Caching completed
+Alpha 1	Range=50	37.0
+Alpha 2	Range=50	28.0
+Global noise per base initialization for 1 = 0.2237
+Global noise per base initialization for 2 = 0.1407
+
+============================ Round 0 ============================
+1:rep1	0	signal-noise ratio:	0.3620
+2:rep1	1	signal-noise ratio:	0.2154
+Condition 1 : Number of active components used for motif finding 872
+Condition 2 : Number of active components used for motif finding 555
+size of group peaks 621
+size of group peaks 541
+number of regions 621
+number of seq added 621
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.78 above 0.7
+removing 390 sequences with RNGNCNNSGGTTCGANTCCSN
+number of regions 231
+number of seq added 231
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.73 above 0.7
+adding motif Motif3	ROC:0.76 above 0.7
+removing 131 sequences with CMACTNNRCYANNNNNSCW
+removing 32 sequences with GSNYNNNTGGCNNAG
+number of regions 68
+number of seq added 68
+MEME ExitValue: 0
+number of regions 251
+number of seq added 251
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.74 above 0.7
+removing 138 sequences with NNRNCNNSGGTTCGANYCCSN
+number of regions 113
+number of seq added 113
+MEME ExitValue: 0
+adding motif Motif2	ROC:0.78 above 0.7
+removing 63 sequences with WWNNNWGSNNNNKTGGCNNAG
+number of regions 50
+number of seq added 50
+MEME ExitValue: 0
+number of regions 541
+number of seq added 541
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.76 above 0.7
+removing 319 sequences with SGGANTCGAACCSNNGNCNYY
+number of regions 222
+number of seq added 222
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.77 above 0.7
+removing 134 sequences with GSNNNNNTGGYNNAG
+number of regions 88
+number of seq added 88
+MEME ExitValue: 0
+cannot do motif finding due to too few regions (14<25).
+The 2 read distributions cannot be updated due to too few binding components (14<50).
+1	NOMOTIF
+2	NOMOTIF
+Performing read distribution clustering
+iterations: 248
+Affinity Propagation exemplars:
+0	chr12:459633-459933	5 members
+5	chr10:396606-396906	68 members
+16	chr5:551161-551461	82 members
+20	chr14:568031-568331	33 members
+46	chr5:354824-355124	65 members
+81	chr10:396662-396962	57 members
+196	chr10:422841-423141	59 members
+200	chr1:166103-166403	74 members
+227	chr15:464290-464590	28 members
+303	chr10:523879-524179	39 members
+number of binding subtype is 15
+max score is 0.9980498847280146
+max score is 0.9340635704269106
+max score is 0.9036946061485663
+max score is 0.8471599265699672
+models to be removed [3, 10, 7, 6, 13, 11]
+Models are consolidated from 15 to 9
+number of binding subtype is 12
+models to be removed [7, 3, 4, 10, 8, 11]
+Models are consolidated from 12 to 6
+Alpha 1	Range=50	38.0
+Alpha 2	Range=50	31.0
+
+============================ Round 1 ============================
+Condition 1 : Number of active components used for motif finding 483
+Condition 2 : Number of active components used for motif finding 378
+size of group peaks 338
+size of group peaks 325
+number of regions 338
+number of seq added 338
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.72 above 0.7
+removing 176 sequences with NNGGGANTCGAACCC
+number of regions 162
+number of seq added 162
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.91 above 0.7
+adding motif Motif2	ROC:0.76 above 0.7
+adding motif Motif3	ROC:0.73 above 0.7
+removing 134 sequences with NYNNNTGGCNYAGTNGKT
+removing 2 sequences with SGCGYYNSNCTNNTA
+removing 4 sequences with TCCAACGTTGCCA
+number of regions 145
+number of seq added 145
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.70 above 0.7
+removing 67 sequences with NCNNNNSSRGRNTCGAACCSN
+number of regions 78
+number of seq added 78
+MEME ExitValue: 0
+number of regions 325
+number of seq added 325
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.76 above 0.7
+adding motif Motif2	ROC:0.72 above 0.7
+removing 166 sequences with GGGANTCGAACCCNSGNCNNN
+removing 127 sequences with NTGGCNNAGTNGGTAANGCS
+number of regions 32
+number of seq added 32
+MEME ExitValue: 0
+number of regions 53
+number of seq added 53
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.87 above 0.7
+adding motif Motif2	ROC:0.87 above 0.7
+removing 39 sequences with KWTRGCNNAGTKGKTARMGCG
+removing 7 sequences with TTACCACTARMCCACNNRCGC
+1	RNGNCNNSGGTTCGANTCCSN	offset:0
+2	SGGANTCGAACCSNNGNCNYY	offset:0
+Number of binding components is too few for distribution update ( 23 < 50 )
+Number of binding components is too few for distribution update ( 16 < 50 )
+Number of binding components is too few for distribution update ( 10 < 50 )
+Number of binding components is too few for distribution update ( 10 < 50 )
+Number of binding components is too few for distribution update ( 6 < 50 )
+Number of binding components is too few for distribution update ( 39 < 50 )
+Updated read distribution from 224 binding events.
+Updated read distribution from 92 binding events.
+Updated read distribution from 63 binding events.
+Number of binding components is too few for distribution update ( 12 < 50 )
+Number of binding components is too few for distribution update ( 9 < 50 )
+Number of binding components is too few for distribution update ( 1 < 50 )
+Number of binding components is too few for distribution update ( 2 < 50 )
+Updated read distribution from 178 binding events.
+Updated read distribution from 176 binding events.
+number of binding subtype is 6
+max score is 0.982621205570797
+models to be removed [5, 4, 3, 2]
+Models are consolidated from 6 to 2
+number of binding subtype is 5
+max score is 0.8974452669609617
+models to be removed [3, 4]
+Models are consolidated from 5 to 3
+Alpha 1	Range=50	38.0
+Alpha 2	Range=50	31.0
+
+============================ Round 2 ============================
+Condition 1 : Number of active components used for motif finding 430
+Condition 2 : Number of active components used for motif finding 378
+number of regions 218
+number of seq added 218
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.86 above 0.7
+removing 166 sequences with GNCNNGGGTTCGANTCCCNN
+number of regions 52
+number of seq added 52
+MEME ExitValue: 0
+number of regions 212
+number of seq added 212
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.95 above 0.7
+removing 195 sequences with NTGGCNNAGTKGKTWNNR
+number of regions 199
+number of seq added 199
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.92 above 0.7
+removing 170 sequences with NNNGGGANTCGAACCCNSGNN
+number of regions 29
+number of seq added 29
+MEME ExitValue: 0
+number of regions 134
+number of seq added 134
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.97 above 0.7
+adding motif Motif2	ROC:0.80 above 0.7
+adding motif Motif3	ROC:0.77 above 0.7
+removing 127 sequences with YNTGGCNNAGTNGKTWA
+removing 0 sequences with GGCRYCNNNCTAAYAANSNGR
+removing 1 sequences with CGYKCSMCTNKYAAKSGMRAG
+number of regions 45
+number of seq added 45
+MEME ExitValue: 0
+adding motif Motif1	ROC:0.91 above 0.7
+adding motif Motif2	ROC:0.72 above 0.7
+adding motif Motif3	ROC:0.92 above 0.7
+removing 38 sequences with CGCKCTACCRAYTGMGCCAAC
+removing 2 sequences with CGAACCCCTAACCTTATGATT
+removing 2 sequences with GGTNNNNTGGYNKAGTGGTYA
+1	NNGGGANTCGAACCC	offset:0
+2	GGGANTCGAACCCNSGNCNNN	offset:0
+Updated read distribution from 218 binding events.
+Updated read distribution from 212 binding events.
+Number of binding components is too few for distribution update ( 45 < 50 )
+Updated read distribution from 199 binding events.
+Updated read distribution from 134 binding events.
+number of binding subtype is 4
+models to be removed [3]
+Models are consolidated from 4 to 3
+number of binding subtype is 5
+max score is 0.8015312629526612
+models to be removed [3, 4]
+Models are consolidated from 5 to 3
+Alpha 1	Range=50	38.0
+Alpha 2	Range=50	31.0
+
+============================ Round 3 ============================
+
+============================ ML read assignment ============================
+1:rep1	0	signal-noise ratio:	0.3576
+2:rep1	1	signal-noise ratio:	0.2875
+ML read assignment finished.
+
+============================= Post-processing ==============================
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "org.seqcode.genome.location.StrandedPoint.getStrand()" because "p" is null
+	at org.seqcode.projects.chexmix.events.BindingManager.writeBindingEventFiles(BindingManager.java:340)
+	at org.seqcode.projects.chexmix.ChExMix.runMixtureModel(ChExMix.java:309)
+	at org.seqcode.projects.chexmix.ChExMix.main(ChExMix.java:352)

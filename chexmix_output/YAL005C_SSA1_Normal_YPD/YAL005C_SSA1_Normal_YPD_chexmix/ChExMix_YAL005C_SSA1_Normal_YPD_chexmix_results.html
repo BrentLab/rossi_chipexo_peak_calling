@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+		<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css' integrity='sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU' crossorigin='anonymous'>
+		<style>
+		body{
+			font-family: 'Roboto', Arial;		
+		}
+		.myimg{
+			max-height:400px;
+			max-width: 250px;
+		}
+		i{
+			font-size:20px;
+		}
+		.card-header{
+			background-color: #EBF5FB;
+		}
+		</style>
+		<title>ChExMix</title>
+	</head>
+	<body>
+		<div class='container'>
+			<br><h2>ChExMix Results</h2><br>
+			<div class='command' id='commandRun'>
+			<div class='card'>
+				<div class='card-header' id='headingOne'>
+					<button class='btn btn-link collapsed text-dark' type='button' data-toggle='collapse' data-target='#collapseTwo' aria-expanded='false' aria-controls='collapseTwo'>
+						<h5 class='mb-0'> Command</h5>
+					</button>
+					<i class='fas fa-sort-down float-right'></i>
+					</div>
+					<div id='collapseTwo' class='collapse' aria-labelledby='headingOne' data-parent='#commandRun'>
+				<div class='card-body'>
+					ChExMix version 0.52 run completed on: 2026/07/08 12:12:20<br> with arguments:
+  --threads 8 --geninfo /ref/mblab/data/yeast_data/chipexo/sacCer3.info --seq /ref/mblab/data/yeast_data/chipexo/sacCer3_cegr.fa --back /ref/mblab/data/yeast_data/chipexo/yeast.back --excludebed /ref/mblab/data/yeast_data/chipexo/exclude_regions/ChExMix_Peak_Filter_List_190612.bed --format BAM --noread2 --design chexmix_input/YAL005C_SSA1_Normal_YPD.txt --memepath /ref/mblab/software/spack-1.1.0/opt/spack/linux-x86_64/meme-5.5.7-jvb4u5kienfjwqxfwb7gffcmudtgevcz/bin --scalewin 1000 --fixedalpha 0 --mememinw 8 --mememaxw 21 --lenientplus --q 0.01 --minfold 1.5 --out chexmix_output/YAL005C_SSA1_Normal_YPD/YAL005C_SSA1_Normal_YPD_chexmix<br>
+ with parameters:
+  --highlogconf -7.0 --prlogconf -6.0 --round 3 --pospriorscale 10 --threads 8 --alphascale 1.0 --fixedalpha 0.0 --betascale 0.05 --epsilonscale 0.2 --minroc 0.7 --bmwindowmax 2000 --minmodelupdateevents 50 --minmodelupdaterefs 25 --minsubtypefrac 0.05 --gausssmoothparam 1.0 --memepath /ref/mblab/software/spack-1.1.0/opt/spack/linux-x86_64/meme-5.5.7-jvb4u5kienfjwqxfwb7gffcmudtgevcz/bin/ --memeargs  -dna -mod zoops -revcomp -nostatus  -nmotifs 3 -minw 8 -maxw 21 --mememinw 8 --mememaxw 21 --compspacing 30 --pref -0.1 --numcomps 500 --seqrmthres 0.1 --mrange 50 --motifpccthres 0.95 --kldivergencethres -10.0 --q 0.01 --minfold 1.5
+				</div>
+				</div>
+			</div>
+			</div>
+			<br>
+			<div class='card'>
+				<h5 class='card-header'>Input data</h5>
+				<div class='card-body'>
+					<div style='overflow-x:auto;'>
+					<table class='table table-bordered'>
+						<tr>
+							<th>Replicate</th>
+							<th>ReadCount</th>
+							<th>CtrlScaling</th>
+							<th>SignalFraction</th>
+						</tr>
+						<tr>
+							<td>1 rep1</td>
+							<td>2057605.0</td>
+							<td>0.269</td>
+							<td>0.000</td>
+						</tr>
+					</table>
+				</div>
+				</div>
+			</div>
+			<br>
+			<div class='card'>
+				<h5 class='card-header'>Binding event subtypes</h5>
+				<div class='card-body'>
+					<div style='overflow-x:auto;'>
+					<table class='table table-bordered'>
+						<tr>
+							<th>Condition</th>
+							<th>Events</th>
+							<th>File</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>0</td>
+							<td><a href='YAL005C_SSA1_Normal_YPD_chexmix_1.events'>YAL005C_SSA1_Normal_YPD_chexmix_1.events</a></td>
+						</tr>
+					</table>
+				</div>
+					<br>
+					<div style='overflow-x:auto;'>
+					<table class='table table-bordered'>
+						<tr>
+							<th>Condition</th>
+		<th>Heatmap (+/-250bp)</th>
+		<th>Sequence plot (+/-15bp)</th>
+							<th>Subtype 0</th>
+						</tr>
+						<tr>							<td rowspan=3>1</td>
+							<td rowspan=3>No events</td>
+							<td rowspan=3>No events</td>
+							<td><a href='#' onclick='return fullpopitup("images/YAL005C_SSA1_Normal_YPD_chexmix_1-rep1_0_Read_Distributions.png")'><img class='myimg mx-auto d-block' src='images/YAL005C_SSA1_Normal_YPD_chexmix_1-rep1_0_Read_Distributions.png' height='300'></a></td>
+						</tr>
+						<tr>
+						<td>NA</td>
+						</tr>
+						<tr>
+						<td>0 events</td>
+						</tr>
+					</table>
+				</div>
+				</div>
+			</div>
+			<br>
+			<div class='card'>
+				<h5 class='card-header'>Replicate information</h5>
+				<div class='card-body'>
+					<div style='overflow-x:auto;'>
+					<table class='table table-bordered'>
+						<tr>
+							<th>Condition</th>
+							<th>Replication code file</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><a href='YAL005C_SSA1_Normal_YPD_chexmix.all.replicationcodes.table'>YAL005C_SSA1_Normal_YPD_chexmix.all.replicationcodes.table</a></td>
+						</tr>
+					</table>
+				</div>
+				<br>
+					<div style='overflow-x:auto;'>
+					<table class='table table-bordered'>
+						<tr>
+							<th>Replicate</th>
+							<th>Event file</th>
+						</tr>
+						<tr>
+							<td>1 rep1</td>
+							<td><a href='YAL005C_SSA1_Normal_YPD_chexmix_1_rep1.repevents.txt'>YAL005C_SSA1_Normal_YPD_chexmix_1_rep1.repevents.txt</a></td>
+						</tr>
+					</table>
+				</div>
+				</div>
+			</div>
+			<br>
+			<div class='card-body'>
+				<h4>Miscellaneous files</h4>
+				<p><a href='intermediate-results/YAL005C_SSA1_Normal_YPD_chexmix.1.transfac'>1 subtype motifs</a></p>
+				<p> Try inputting these motifs into <a href='http://www.benoslab.pitt.edu/stamp/'>STAMP</a> for validation</p>
+				<p><a href='intermediate-results/YAL005C_SSA1_Normal_YPD_chexmix.subtypeModelWidth.txt'>Subtype model width</a></p>
+				<p><a href='intermediate-results/YAL005C_SSA1_Normal_YPD_chexmix.intraCondPeakDistances.histo.txt'>Peak-peak distance histograms (same condition)</a></p>
+				<p><a href='intermediate-results/YAL005C_SSA1_Normal_YPD_chexmix.peaks2motifs.histo.txt'>Peak-motif distance histograms</a></p>
+			</div>
+				<script language='javascript' type='text/javascript'>
+			function fullpopitup(url) {
+				newwindow = window.open(url, 'name');
+				if (window.focus) { newwindow.focus() }
+				return false;
+			}
+			function motifpopitup(url) {
+				newwindow = window.open(url, 'name', ' height=75');
+				if (window.focus) { newwindow.focus() }
+				return false;
+			}
+		</script>
+		<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js' integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49' crossorigin='anonymous'></script>
+		<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js' integrity='sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy' crossorigin='anonymous'></script>
+		</body>
+</html>

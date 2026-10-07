@@ -1,0 +1,85 @@
+ChExMix version 0.52
+
+
+Excluding 419 regions from BED file /ref/mblab/data/yeast_data/chipexo/exclude_regions/ChExMix_Peak_Filter_List_190612.bed
+Processing HitLoaders for:	1	DEFAULT
+Processing HitLoaders for:	1	rep1
+Loading data from 1:DEFAULT:control	Loaded.
+Loading data from 1:rep1:signal	Loaded.
+Calculating scaling factors for condition:	1	Complete.
+Loaded all experiments:
+ Condition 1:	#Replicates:	1
+	Replicate:	1:rep1
+		Signal:	2057605.0	Control:	7703636.0	ScalingFactor:	0.269
+	Pooled replicates for condition:	1
+		Signal:	2057605.0	Control:7703636.0	ScalingFactor:0.269
+Finding potential binding regions.
+PotentialRegionFilter: condition genomic threshold for 1 with bin width 50.0 = 29.0
+PotentialRegionFilter: replicate genomic threshold for 1:rep1 with bin width 50.0 = 29.0
+13 potential regions found. Total length: 1325.0
+Initializing mixture model
+Caching sequences
+Caching completed
+Alpha 1	Range=50	31.0
+Global noise per base initialization for 1 = 0.1647
+
+============================ Round 0 ============================
+1:rep1	0	signal-noise ratio:	0.0000
+Condition 1 : Number of active components used for motif finding 0
+cannot do motif finding due to too few regions (0<25).
+The 1 read distributions cannot be updated due to too few binding components (0<50).
+1	NOMOTIF
+Performing read distribution clustering
+Alpha 1	Range=50	31.0
+
+============================ Round 1 ============================
+Condition 1 : Number of active components used for motif finding 0
+cannot do motif finding due to too few regions (0<25).
+The 1 read distributions cannot be updated due to too few binding components (0<50).
+1	NOMOTIF
+Number of binding components is too few for distribution update ( 0 < 50 )
+Alpha 1	Range=50	31.0
+
+============================ Round 2 ============================
+Condition 1 : Number of active components used for motif finding 0
+1	NOMOTIF
+Number of binding components is too few for distribution update ( 0 < 50 )
+Alpha 1	Range=50	31.0
+
+============================ Round 3 ============================
+
+============================ ML read assignment ============================
+1:rep1	0	signal-noise ratio:	0.0000
+ML read assignment finished.
+
+============================= Post-processing ==============================
+Binding event detection finished!
+Binding events are printed to files in chexmix_output/YAL005C_SSA1_Normal_YPD/YAL005C_SSA1_Normal_YPD_chexmix beginning with: chexmix_output/YAL005C_SSA1_Normal_YPD/YAL005C_SSA1_Normal_YPD_chexmix
+Events post-analysis
+	Peak-motif distance histograms
+	Peak-peak distance histograms (same condition)
+javax.imageio.IIOException: Can't read input file!
+	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1310)
+	at org.seqcode.projects.chexmix.utilities.EventsPostAnalysis.execute(EventsPostAnalysis.java:242)
+	at org.seqcode.projects.chexmix.ChExMix.runMixtureModel(ChExMix.java:315)
+	at org.seqcode.projects.chexmix.ChExMix.main(ChExMix.java:352)
+--win 250 --bins 250 --batch --nocolorbar --linemax 3 --linethick 1 --noborder --peaks /scratch/mblab/chasem/chipexo_reprocess/chexmix_output/YAL005C_SSA1_Normal_YPD/YAL005C_SSA1_Normal_YPD_chexmix/intermediate-results/YAL005C_SSA1_Normal_YPD_chexmix_1.subtype.aligned.events.txt --strand + --color blue --noborder --out 1.events
+Binding Parameters:	Window size: 250	Bins: 250
+Batch running...
+Single set mode...
+Loading points
+0 points loaded
+Saving images with root name: /scratch/mblab/chasem/chipexo_reprocess/chexmix_output/YAL005C_SSA1_Normal_YPD/YAL005C_SSA1_Normal_YPD_chexmix/images/YAL005C_SSA1_Normal_YPD_chexmix_1.events_1_+
+Empty MetaProfile: nothing to write to file
+Empty MetaProfile: nothing to write to file
+Finished
+Binding Parameters:	Window size: 250	Bins: 250
+Batch running...
+Single set mode...
+Loading points
+0 points loaded
+Saving images with root name: /scratch/mblab/chasem/chipexo_reprocess/chexmix_output/YAL005C_SSA1_Normal_YPD/YAL005C_SSA1_Normal_YPD_chexmix/images/YAL005C_SSA1_Normal_YPD_chexmix_1.events_1_-
+Empty MetaProfile: nothing to write to file
+Empty MetaProfile: nothing to write to file
+Finished
+Writing results report to: chexmix_output/YAL005C_SSA1_Normal_YPD/YAL005C_SSA1_Normal_YPD_chexmix/ChExMix_YAL005C_SSA1_Normal_YPD_chexmix_results.html

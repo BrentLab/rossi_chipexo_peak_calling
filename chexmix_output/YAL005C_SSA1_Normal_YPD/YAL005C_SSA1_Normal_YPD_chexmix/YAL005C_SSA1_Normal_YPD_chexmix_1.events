@@ -1,0 +1,7 @@
+### ChExMix output
+#Condition	Name	Index	TotalSigCount	SigCtrlScaling	SignalFraction
+#Condition	1	0	2057605.0	0.269	0.000
+#Replicate	ParentCond	Name	Index	SigCount	CtrlCount	CtrlScaling	SignalFraction
+#Replicate	1	1:rep1	0	2057605.0	7703636.0	0.269	0.000
+#
+#Point	1_Sig	1_Ctrl	1_log2Fold	1_log2Q	SubtypePoint	Tau	SubtypeName	SubtypeSequence	SubtypeMotifScore

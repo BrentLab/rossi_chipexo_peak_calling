@@ -1,0 +1,5 @@
+### ChExMix output
+#Replicate	ParentCond	Name	Index	SigCount	CtrlCount	CtrlScaling	SignalFraction
+#Replicate	1	1:rep1	0	2057605.0	7703636.0	0.269	0.000
+#
+#Point	1:rep1_Sig	1:rep1_Ctrl	1:rep1_log2Fold	1:rep1_log2Q

@@ -1,0 +1,5 @@
+#DataFile	Signal/Control	FileFormat	ReplicateName
+masterNoTag_20180928.bam	control	BAM	1
+bams/15254_filtered.bam	signal	BAM	1
+bams/19442_filtered.bam	signal	BAM	2
+bams/19997_filtered.bam	signal	BAM	3

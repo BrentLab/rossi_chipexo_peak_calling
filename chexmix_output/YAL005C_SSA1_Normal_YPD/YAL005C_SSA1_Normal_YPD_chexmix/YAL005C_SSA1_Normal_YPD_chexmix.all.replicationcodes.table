@@ -1,0 +1,10 @@
+### ChExMix replication codes
+# Codes:
+#     X : Event was not called in this condition
+#     S : This condition only contains a single replicate
+#     D : Called in one replicate or condition as a whole, significant difference detected across some replicates (binomial P-value, same threshold as --q)
+#     1 : Called in one replicate or condition as a whole, NO significant difference detected across any replicates
+#    >1 : Number of replicates in which binding event is called significant
+#
+#BindingEvent	1
+chr7:882934	S
